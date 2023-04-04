@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #89fffd, #ef32d9);
+    font-weight: 500;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
+    background-image: -webkit-linear-gradient(bottom, #5ee7df 0%, #b490ca 100%);
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.wrapper {
+    border-radius: 15px;
+    background-color: #fff;
+    width: 34%;
+    height: auto;
+    margin: 25px auto;
+    padding: 40px 60px;
+    display: block;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 50px;
+}
+.sub_title{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #ef32d9;
+}
+.sub_title:last-child{
+    border-left: none;
+    background-color: lightskyblue;
+}
+.title .sub_title:hover {
+    background-color: lightpink;
+    cursor: pointer;
+    color: #fff;
+}
+.title .sub_title a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.input_info {
+    margin-top: 70px;
+}
+.input_space {
+    padding: 6px 10px;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #888;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.input_space:focus {
+    outline: none;
+}
+.lable {
+    font-size: 18px;
+}
+
+.input_info p {
+    font-size: 15px;
+    color: red;
+    margin-top: 10px;
+}
+
+#noti{
+    color: green;
+    font-weight: 600;
+}
+#login_link{
+    color: black !important;
+    text-decoration: none;
+}
+#login_link:hover{
+    color:#fff;
+    text-decoration: none;
+
+}
+#policy{
+    font-size: 13px;
+}
+#policy a {
+    cursor: pointer;
+    color: coral;
+    font-size: 13px;
+}
+#btn_login {
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    margin: 40px auto 0 auto;
+    background-image: linear-gradient(to right, #89fffd, #ef32d9 );
+    border: none;
+    font-size: 18px;
+    color: #222;
+}
+#btn_login:focus {
+    outline: none;
+}
+#btn_login:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #fff;
+}
+
+

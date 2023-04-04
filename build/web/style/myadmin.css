@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url(../css/bootstrap.min.css);
+@import url(../css/classy-nav.css);
+@import url(../css/animate.css);
+@import url(../css/owl.carousel.css);
+@import url(../css/font-awesome.min.css);
+@font-face {
+  font-family: 'helveticaneuebold';
+  src: url("../fonts/helvetica_neu_bold-webfont.woff2") format("woff2"), url("../fonts/helvetica_neu_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'helveticaneuemedium';
+  src: url("../fonts/helveticaneue_medium-webfont.woff2") format("woff2"), url("../fonts/helveticaneue_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.overlay{
+    position: fixed;
+    
+    z-index: 101;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(150, 148, 148);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_post h2{
+      
+      color: red;
+  }
+.wrapLogin{
+    width: 30vw;
+    height: 15vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.wrapLogin #login_btn{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 30px;
+}
+.wrapLogin #login_btn:hover {
+  color: red;
+}
+.wrapLogin p {
+  font-size: 20px;
+  margin: 5px auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form_post{
+    margin: 30px auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .form_post input, .form_post textarea {
+    margin: 0 10px 10px 10px;
+    margin-left: 0;
+  }
+  .form_post textarea{
+    padding: 5px;
+    font-family: "helveticaneuemedium";
+  }
+  .form_post input{
+    width:400px;
+    height: 30px;
+    font-family: "helveticaneuemedium";
+  }
+  .form_post button, .form_post #title, .form_post #hastag{
+    padding: 5px 10px;
+  }
+  .form_post button{
+      border: 1px solid #007bff;
+      background-color: #007bff;
+      color: #fff;
+  }
+  body {
+      background-color: #fff;
+      font-family: "helveticaneuemedium";
+  }
+  .header-area {
+  position: relative;
+  width: 100%;
+  padding: 10px 0; 
+  background-color: #000000;
+  z-index: 100;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms; 
+  margin-bottom: 30px;
+}
+.header-area img {
+  width: 150px;
+  height: auto;
+}
+#btn_createpost {
+    cursor: pointer;
+}
+#btn_createpost:hover {
+    opacity: 0.8;
+    outline: none;
+}
+  .header-area .logo-area {
+    /* height: 170px; */
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1; }
+    @media only screen and (max-width: 767px) {
+      .header-area .logo-area {
+        height: 100px; } }
+  .header-area .original-nav-area {
+    height: 100px; }
+    @media only screen and (max-width: 767px) {
+      .header-area .original-nav-area {
+        height: 70px; } }
+    .header-area .original-nav-area .classynav ul li a {
+      text-transform: uppercase;
+      /* color: #4f4d4d; */
+    color: #fff;
+    }
+      .header-area .original-nav-area .classynav ul li a:focus, .header-area .original-nav-area .classynav ul li a:hover {
+        color: #FFC3C3; }
+    .header-area .original-nav-area .classy-nav-container {
+      background-color: transparent; }
+    .header-area .original-nav-area .classy-navbar {
+      height: 100px;
+      padding: 0; }
+      @media only screen and (max-width: 767px) {
+        .header-area .original-nav-area .classy-navbar {
+          height: 70px; } }
+  .header-area .is-sticky .original-nav-area {
+    background-color: #CA965C;
+    margin-top: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    /* height: 70px; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 900; }
+    .header-area .is-sticky .original-nav-area .classy-navbar {
+      height: 70px; }
+    .footer-area {
+  padding: 30px 0;
+  position: relative;
+  border-top: 1px solid #dcdcdc;
+  z-index: 1; }
+  .footer-area .footer-social-area a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #000000;
+    font-size: 13px; }
+  .footer-area .classynav ul li a {
+    text-transform: uppercase;
+    color: #4f4d4d; }
+    .footer-area .classynav ul li a:focus, .footer-area .classynav ul li a:hover {
+      color: #000000; }
